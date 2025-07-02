@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '21'
           cache: 'yarn'
 
       - name: Setup Ruby
@@ -29,7 +29,7 @@ jobs:
           bundler-cache: true
 
       - name: Install project dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
 
       - name: Install CocoaPods
         run: |

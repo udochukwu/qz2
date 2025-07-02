@@ -1,0 +1,343 @@
+diff --git a/node_modules/react-native-image-size/.idea/modules.xml b/node_modules/react-native-image-size/.idea/modules.xml
+new file mode 100644
+index 0000000..f31bf0c
+--- /dev/null
++++ b/node_modules/react-native-image-size/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/react-native-image-size.iml" filepath="$PROJECT_DIR$/.idea/react-native-image-size.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/node_modules/react-native-image-size/.idea/php.xml b/node_modules/react-native-image-size/.idea/php.xml
+new file mode 100644
+index 0000000..88cd1bc
+--- /dev/null
++++ b/node_modules/react-native-image-size/.idea/php.xml
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="MessDetectorOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PHPCSFixerOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PHPCodeSnifferOptionsConfiguration">
++    <option name="highlightLevel" value="WARNING" />
++    <option name="transferred" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/node_modules/react-native-image-size/.idea/react-native-image-size.iml b/node_modules/react-native-image-size/.idea/react-native-image-size.iml
+new file mode 100644
+index 0000000..4890e97
+--- /dev/null
++++ b/node_modules/react-native-image-size/.idea/react-native-image-size.iml
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="SonarLintModuleSettings">
++    <option name="uniqueId" value="db10ec9d-2f56-46d8-bfb9-086e68391dc6" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/0/4/0468fcb750ee5de828ee6813b668328947728e57 b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/0/4/0468fcb750ee5de828ee6813b668328947728e57
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/0/b/0b3b2877555a5f870242186e404e35c0deb3a18b b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/0/b/0b3b2877555a5f870242186e404e35c0deb3a18b
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/1/3/13f012f60e18f38225ce59137db2e07d5d70b29c b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/1/3/13f012f60e18f38225ce59137db2e07d5d70b29c
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/6/a/6a531bac0e5a61cb2036640f5a088e8ab11cccc0 b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/6/a/6a531bac0e5a61cb2036640f5a088e8ab11cccc0
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/7/1/713e1c90ec0c0fbaf13775af6b0175a25e3dfa34 b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/7/1/713e1c90ec0c0fbaf13775af6b0175a25e3dfa34
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/a/7/a77b15c0d64cf6111e025645e562faf8ccabb9d7 b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/a/7/a77b15c0d64cf6111e025645e562faf8ccabb9d7
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/d/2/d2bdfe950174846fee8e3d018e9a748b93563000 b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/d/2/d2bdfe950174846fee8e3d018e9a748b93563000
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/f/1/f1cb5f19886cc6b3f2b23bee730d2056d3fb05bb b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/f/1/f1cb5f19886cc6b3f2b23bee730d2056d3fb05bb
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/issuestore/index.pb b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/index.pb
+new file mode 100644
+index 0000000..c24d972
+--- /dev/null
++++ b/node_modules/react-native-image-size/.idea/sonarlint/issuestore/index.pb
+@@ -0,0 +1,19 @@
++
++8
++index.js,a/7/a77b15c0d64cf6111e025645e562faf8ccabb9d7
++D
++android/build.gradle,1/3/13f012f60e18f38225ce59137db2e07d5d70b29c
++T
++$android/src/main/AndroidManifest.xml,0/b/0b3b2877555a5f870242186e404e35c0deb3a18b
++z
++Jandroid/src/main/java/com/existfragger/rnimagesize/RNImageSizePackage.java,d/2/d2bdfe950174846fee8e3d018e9a748b93563000
++9
++	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
++I
++js/RNImageSize.android.js,6/a/6a531bac0e5a61cb2036640f5a088e8ab11cccc0
++E
++js/RNImageSize.ios.js,f/1/f1cb5f19886cc6b3f2b23bee730d2056d3fb05bb
++I
++js/RNImageSize.windows.js,7/1/713e1c90ec0c0fbaf13775af6b0175a25e3dfa34
++y
++Iandroid/src/main/java/com/existfragger/rnimagesize/RNImageSizeModule.java,0/4/0468fcb750ee5de828ee6813b668328947728e57
+\ No newline at end of file
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/0/4/0468fcb750ee5de828ee6813b668328947728e57 b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/0/4/0468fcb750ee5de828ee6813b668328947728e57
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/0/b/0b3b2877555a5f870242186e404e35c0deb3a18b b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/0/b/0b3b2877555a5f870242186e404e35c0deb3a18b
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/1/3/13f012f60e18f38225ce59137db2e07d5d70b29c b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/1/3/13f012f60e18f38225ce59137db2e07d5d70b29c
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/6/a/6a531bac0e5a61cb2036640f5a088e8ab11cccc0 b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/6/a/6a531bac0e5a61cb2036640f5a088e8ab11cccc0
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/7/1/713e1c90ec0c0fbaf13775af6b0175a25e3dfa34 b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/7/1/713e1c90ec0c0fbaf13775af6b0175a25e3dfa34
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/a/7/a77b15c0d64cf6111e025645e562faf8ccabb9d7 b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/a/7/a77b15c0d64cf6111e025645e562faf8ccabb9d7
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/d/2/d2bdfe950174846fee8e3d018e9a748b93563000 b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/d/2/d2bdfe950174846fee8e3d018e9a748b93563000
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/f/1/f1cb5f19886cc6b3f2b23bee730d2056d3fb05bb b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/f/1/f1cb5f19886cc6b3f2b23bee730d2056d3fb05bb
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/index.pb b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/index.pb
+new file mode 100644
+index 0000000..0ed4809
+--- /dev/null
++++ b/node_modules/react-native-image-size/.idea/sonarlint/securityhotspotstore/index.pb
+@@ -0,0 +1,19 @@
++
++8
++index.js,a/7/a77b15c0d64cf6111e025645e562faf8ccabb9d7
++D
++android/build.gradle,1/3/13f012f60e18f38225ce59137db2e07d5d70b29c
++T
++$android/src/main/AndroidManifest.xml,0/b/0b3b2877555a5f870242186e404e35c0deb3a18b
++z
++Jandroid/src/main/java/com/existfragger/rnimagesize/RNImageSizePackage.java,d/2/d2bdfe950174846fee8e3d018e9a748b93563000
++9
++	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
++y
++Iandroid/src/main/java/com/existfragger/rnimagesize/RNImageSizeModule.java,0/4/0468fcb750ee5de828ee6813b668328947728e57
++I
++js/RNImageSize.android.js,6/a/6a531bac0e5a61cb2036640f5a088e8ab11cccc0
++E
++js/RNImageSize.ios.js,f/1/f1cb5f19886cc6b3f2b23bee730d2056d3fb05bb
++I
++js/RNImageSize.windows.js,7/1/713e1c90ec0c0fbaf13775af6b0175a25e3dfa34
+\ No newline at end of file
+diff --git a/node_modules/react-native-image-size/.idea/vcs.xml b/node_modules/react-native-image-size/.idea/vcs.xml
+new file mode 100644
+index 0000000..94a25f7
+--- /dev/null
++++ b/node_modules/react-native-image-size/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/node_modules/react-native-image-size/README.md b/node_modules/react-native-image-size/README.md
+index 035e8de..5b795bd 100644
+--- a/node_modules/react-native-image-size/README.md
++++ b/node_modules/react-native-image-size/README.md
+@@ -2,7 +2,7 @@
+ 
+ [![NPM version](https://badge.fury.io/js/react-native-image-size.svg)](http://badge.fury.io/js/react-native-image-size)
+ 
+-Android 4.0 (API level 14) introduced the ability to get orifinal image size.
++Android 4.0 (API level 14) introduced the ability to get original image size.
+ 
+ iOS uses Image.getSize https://facebook.github.io/react-native/docs/image#getsize
+ 
+@@ -15,6 +15,14 @@ Download via NPM
+ npm i -S react-native-image-size
+ ```
+ 
++Download via Yarn
++
++```shell
++yarn add react-native-image-size
++```
++
++Afterward make sure to rebuild app, not just refresh bundler.
++
+ ## Linking (for React Native <= 0.59 only, React Native >= 0.60 skip this as auto-linking should work)
+ 
+ **-- Automaticaly --**
+diff --git a/node_modules/react-native-image-size/android/build.gradle b/node_modules/react-native-image-size/android/build.gradle
+index cb9a80c..ae3871f 100644
+--- a/node_modules/react-native-image-size/android/build.gradle
++++ b/node_modules/react-native-image-size/android/build.gradle
+@@ -1,10 +1,11 @@
+ buildscript {
+     repositories {
++        mavenCentral()
+         jcenter()
+     }
+ 
+     dependencies {
+-        classpath 'com.android.tools.build:gradle:2.3.3'
++        classpath 'com.android.tools.build:gradle:2.3.0'
+     }
+ }
+ 
+diff --git a/node_modules/react-native-image-size/android/src/main/java/com/existfragger/rnimagesize/RNImageSizeModule.java b/node_modules/react-native-image-size/android/src/main/java/com/existfragger/rnimagesize/RNImageSizeModule.java
+index bc0baf2..9189293 100644
+--- a/node_modules/react-native-image-size/android/src/main/java/com/existfragger/rnimagesize/RNImageSizeModule.java
++++ b/node_modules/react-native-image-size/android/src/main/java/com/existfragger/rnimagesize/RNImageSizeModule.java
+@@ -1,9 +1,11 @@
+ package com.existfragger.rnimagesize;
+ 
++import android.content.ContentResolver;
+ import android.graphics.Bitmap;
+ import android.graphics.BitmapFactory;
+ import android.media.ExifInterface;
+ import android.net.Uri;
++import android.os.Build;
+ 
+ import com.facebook.react.bridge.Arguments;
+ import com.facebook.react.bridge.Promise;
+@@ -16,38 +18,59 @@ import java.io.InputStream;
+ import java.net.URL;
+ 
+ public class RNImageSizeModule extends ReactContextBaseJavaModule {
++    private final ReactApplicationContext reactContext;
++
+     public RNImageSizeModule(final ReactApplicationContext reactContext) {
+         super(reactContext);
++        this.reactContext = reactContext;
+     }
+ 
+     @ReactMethod
+     public void getSize(String uri, final Promise promise) {
+         try {
+             Uri u = Uri.parse(uri);
++            String scheme = u.getScheme();
+             BitmapFactory.Options options = new BitmapFactory.Options();
+             options.inJustDecodeBounds = true;
++            ExifInterface exifInterface = null;
+ 
+             int height = 0;
+             int width = 0;
+             int rotation = 0;
+ 
+-            if (uri.startsWith("file://")) {
+-                BitmapFactory.decodeFile(u.getPath(), options);
+-                ExifInterface exifInterface = new ExifInterface(u.getPath());
++            if (ContentResolver.SCHEME_FILE.equals(scheme) || ContentResolver.SCHEME_CONTENT.equals(scheme) || ContentResolver.SCHEME_ANDROID_RESOURCE.equals(scheme)) {
++                // ContentResolver.openInputStream() can only handle SCHEME_FILE, SCHEME_CONTENT and SCHEME_ANDROID_RESOURCE
++                // https://developer.android.com/reference/android/content/ContentResolver?hl=en#openInputStream(android.net.Uri)
++                ContentResolver contentResolver = getReactApplicationContext().getContentResolver();
++                BitmapFactory.decodeStream(
++                    contentResolver.openInputStream(u),
++                    null,
++                    options
++                );
++                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
++                    exifInterface = new ExifInterface(contentResolver.openInputStream(u));
++                } else if (ContentResolver.SCHEME_FILE.equals(scheme)) {
++                    // For SCHEME_FILE, Use ExifInterface(String filename) if the SDK version is less than 24(N)
++                    exifInterface = new ExifInterface(u.getPath());
++                }
++            } else {
++                // ContentResolver.openInputStream() cannot handle this scheme, treat it as remote uri
++                URL url = new URL(uri);
++                BitmapFactory.decodeStream(url.openStream(), null, options);
++                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
++                    exifInterface = new ExifInterface(url.openStream());
++                }
++            }
++            height = options.outHeight;
++            width = options.outWidth;
++            if (exifInterface != null) {
+                 int orientation = exifInterface.getAttributeInt(ExifInterface.TAG_ORIENTATION, 1);
+                 if (orientation == ExifInterface.ORIENTATION_ROTATE_90)
+-                  rotation = 90;
++                    rotation = 90;
+                 else if (orientation == ExifInterface.ORIENTATION_ROTATE_180)
+-                  rotation = 180;
++                    rotation = 180;
+                 else if (orientation == ExifInterface.ORIENTATION_ROTATE_270)
+-                  rotation = 270;
+-                height = options.outHeight;
+-                width = options.outWidth;
+-            } else {
+-                URL url = new URL(uri);
+-                Bitmap bitmap = BitmapFactory.decodeStream((InputStream) url.getContent());
+-                height = bitmap.getHeight();
+-                width = bitmap.getWidth();
++                    rotation = 270;
+             }
+ 
+             WritableMap map = Arguments.createMap();
+diff --git a/node_modules/react-native-image-size/js/RNImageSize.android.js b/node_modules/react-native-image-size/js/RNImageSize.android.js
+index 3b113f2..909c8f8 100644
+--- a/node_modules/react-native-image-size/js/RNImageSize.android.js
++++ b/node_modules/react-native-image-size/js/RNImageSize.android.js
+@@ -1,6 +1,5 @@
+ import { NativeModules } from 'react-native';
+ 
+-
+ const { RNImageSize } = NativeModules;
+ 
+ export default { getSize: RNImageSize.getSize };
+diff --git a/node_modules/react-native-image-size/js/RNImageSize.ios.js b/node_modules/react-native-image-size/js/RNImageSize.ios.js
+index bf10b22..657bfaf 100644
+--- a/node_modules/react-native-image-size/js/RNImageSize.ios.js
++++ b/node_modules/react-native-image-size/js/RNImageSize.ios.js
+@@ -1,6 +1,5 @@
+ import { Image } from 'react-native';
+ 
+-
+ const getSize = (uri) => {
+     return new Promise((resolve, reject) => {
+         Image.getSize(uri, (width, height) => resolve({ width, height }), reject);
+diff --git a/node_modules/react-native-image-size/js/RNImageSize.windows.js b/node_modules/react-native-image-size/js/RNImageSize.windows.js
+new file mode 100644
+index 0000000..657bfaf
+--- /dev/null
++++ b/node_modules/react-native-image-size/js/RNImageSize.windows.js
+@@ -0,0 +1,9 @@
++import { Image } from 'react-native';
++
++const getSize = (uri) => {
++    return new Promise((resolve, reject) => {
++        Image.getSize(uri, (width, height) => resolve({ width, height }), reject);
++    })
++}
++
++export default { getSize };
