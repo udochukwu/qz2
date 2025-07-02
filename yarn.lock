@@ -1219,10 +1219,10 @@
   dependencies:
     merge-options "^3.0.4"
 
-"@react-native-community/blur@^4.3.0":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@react-native-community/blur/-/blur-4.4.1.tgz#72cbc0be5a84022c33091683ec6888925ebcca6e"
-  integrity sha512-XBSsRiYxE/MOEln2ayunShfJtWztHwUxLFcSL20o+HNNRnuUDv+GXkF6FmM2zE8ZUfrnhQ/zeTqvnuDPGw6O8A==
+"@react-native-community/blur@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/blur/-/blur-4.3.0.tgz#e5018b3b0bd6de9632ac6cf34e9f8e0f1a9a28ec"
+  integrity sha512-d6phh39kKcbZ4IluDftiVWqfeFOgjl1AbQWzN47x+hLKQ5GvQJ6QhRvgAuDZ+xbJksrbXgNpMjVYkjsbcVehxg==
 
 "@react-native-community/cli-clean@14.1.0":
   version "14.1.0"
@@ -7118,10 +7118,10 @@ react-native-image-picker@^7.0.2:
   resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-7.1.2.tgz#383849d1953caf4578874a1f5e5dd11c737bd5cd"
   integrity sha512-b5y5nP60RIPxlAXlptn2QwlIuZWCUDWa/YPUVjgHc0Ih60mRiOg1PSzf0IjHSLeOZShCpirpvSPGnDExIpTRUg==
 
-react-native-image-size@^1.1.3:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/react-native-image-size/-/react-native-image-size-1.1.6.tgz#a380a605cd43ebfc13c30dad12b4e456f5647345"
-  integrity sha512-UlfyBqYvmf2TjHSV25mh4Se7xw6zTkodvt6DjSZJefqEfz4ZECk+petIadSDFVWgPOqULB+3LIrj6U6t/SlKQA==
+react-native-image-size@1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/react-native-image-size/-/react-native-image-size-1.1.3.tgz#7d69c2cd4e1d1632947867e47643ed8cabb9de27"
+  integrity sha512-jJvN6CjXVAm69LAVZNV7m7r50Qk9vuPZwLyrbs/k31/3Xs8bZyVCdvfP44FuBisITn/yFsiOo6i8NPrFBPH20w==
 
 react-native-in-app-review@^4.2.1:
   version "4.3.3"
