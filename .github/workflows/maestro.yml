@@ -28,13 +28,18 @@ jobs:
           ruby-version: '3.0'
           bundler-cache: true
 
+      - name: Install project dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Install CocoaPods
+        run: |
+          sudo gem install cocoapods
+          pod --version
+
       - name: Install iOS dependencies
         run: |
           cd ios
           pod install
-
-      - name: Install project dependencies
-        run: yarn install --frozen-lockfile
 
       - name: Build iOS app
         run: |
