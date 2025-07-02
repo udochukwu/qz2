@@ -1,0 +1,39 @@
+# Maestro Configuration for Quizard Mobile App - iOS Only
+# This file contains global configuration settings for Maestro tests
+
+# App identifier for iOS
+appId: quizard.ai.--PRODUCT-NAME-rfc1034identifier-
+
+# Global test settings
+env:
+  MAESTRO_DRIVER_STARTUP_TIMEOUT: 120000
+  MAESTRO_DRIVER_SHUTDOWN_TIMEOUT: 30000
+  # CI-specific settings
+  MAESTRO_DRIVER_HEADLESS: true
+  MAESTRO_DRIVER_QUIET: true
+
+# Default timeouts (in milliseconds)
+timeouts:
+  default: 10000
+  long: 30000
+  short: 5000
+
+# Test execution settings
+execution:
+  continueOnFailure: false
+  screenshotOnFailure: true
+  # CI-specific execution settings
+  retries: 1
+  parallel: false
+
+# CI-specific configuration
+ci:
+  # Enable headless mode for CI
+  headless: true
+  # Reduce animation delays in CI
+  animationDelay: 100
+  # Enable detailed logging
+  verbose: true
+
+flows:
+  - home/*

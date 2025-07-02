@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "672841876423",
+    "project_id": "quizard-ai",
+    "storage_bucket": "quizard-ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672841876423:android:19df6ea7993f2100654fe2",
+        "android_client_info": {
+          "package_name": "ai.homework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672841876423-7jrrvso2bu9p1u6g57flbcq5kk2mt6kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZFbo07V-H9vNoAWMHrCiZXvy0MFaTLo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672841876423-7jrrvso2bu9p1u6g57flbcq5kk2mt6kk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "672841876423-3j2p9k3a1qkiho69ltcqh5i11rqc3o10.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.QuizardAI"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672841876423:android:876306db9db88abc654fe2",
+        "android_client_info": {
+          "package_name": "com.aihomework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672841876423-7jrrvso2bu9p1u6g57flbcq5kk2mt6kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZFbo07V-H9vNoAWMHrCiZXvy0MFaTLo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672841876423-7jrrvso2bu9p1u6g57flbcq5kk2mt6kk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "672841876423-3j2p9k3a1qkiho69ltcqh5i11rqc3o10.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.QuizardAI"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

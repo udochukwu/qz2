@@ -1,0 +1,9 @@
+{
+  "name": "AIHomework",
+  "displayName": "Quizard",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-1592409923469514~3283882073",
+    "ios_app_id": "ca-app-pub-1592409923469514~4148820300",
+    "user_tracking_usage_description": "This identifier will be used to deliver personalized ads to you."
+  }
+}

@@ -1,0 +1,84 @@
+# Basic App Launch Test
+# This test validates that the app launches successfully and displays the intro screen
+appId: quizard.ai.--PRODUCT-NAME-rfc1034identifier-
+---
+- launchApp
+- waitForAnimationToEnd
+
+- runFlow:
+    when:
+        visible:
+            text: "Meet Quizard"
+
+    commands:
+        - tapOn:
+            text: "Get Started"
+        - tapOn:
+            text: "Continue"
+        - tapOn:
+            text: "Other"
+        - tapOn:
+            text: "Continue"
+        - tapOn:
+            text: "Other"
+        - tapOn:
+            text: "Continue"
+        - tapOn:
+            text: "Other"
+        - tapOn:
+            text: "Continue"
+
+- runFlow:
+    when:
+        visible:
+            text: "Quick Favor?"
+    commands:
+        - tapOn:
+            text: "Dismiss"
+
+
+- runFlow:
+    when:
+        visible:
+            text: "Ask as many questions as you want"
+    commands:
+        - assertVisible: "Unlimited Questions"
+        - assertVisible: "Confident Answers"
+        - assertVisible: "Related resources"
+        - assertVisible: "Questions With Figures"
+        - tapOn:
+            point: "10%,8%"
+        - runFlow:
+            when:
+                visible:
+                    text: "We have a gift for you"
+            commands:
+                - tapOn:
+                    point: "50%,15%"
+        - assertVisible: "Take a picture of a question"
+
+- runFlow:
+    when:
+        notVisible:
+            text: "Ask as many questions as you want"
+    commands:
+        - assertVisible:
+            text: "Take a picture of a question"
+        - tapOn:
+            id: "pro-button"
+        - assertVisible: "Unlimited Questions"
+        - assertVisible: "Confident Answers"
+        - assertVisible: "Related resources"
+        - assertVisible: "Questions With Figures"
+        - tapOn:
+            point: "10%,8%"
+        - runFlow:
+            when:
+                visible:
+                    text: "We have a Gift for you!"
+            commands:
+                - tapOn:
+                    point: "50%,15%"
+        - assertVisible: "Take a picture of a question"
+
+

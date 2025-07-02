@@ -1,0 +1,71 @@
+name: Maestro E2E Tests - iOS Only
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+jobs:
+  maestro-ios:
+    name: Maestro Tests - iOS
+    runs-on: macos-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'yarn'
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+
+      - name: Install iOS dependencies
+        run: |
+          cd ios
+          pod install
+
+      - name: Install project dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build iOS app
+        run: |
+          cd ios
+          xcodebuild -workspace AIHomework.xcworkspace -scheme AIHomework -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' -derivedDataPath build
+
+      - name: Install Maestro
+        run: |
+          curl -Ls "https://get.maestro.mobile.dev" | bash
+          export PATH="$PATH":"$HOME/.maestro/bin"
+          maestro --version
+
+      - name: Run Maestro tests on iOS
+        run: |
+          export PATH="$PATH":"$HOME/.maestro/bin"
+          maestro test .maestro/ --format junit --output maestro-results-ios.xml
+        env:
+          MAESTRO_DRIVER_STARTUP_TIMEOUT: 120000
+          MAESTRO_DRIVER_SHUTDOWN_TIMEOUT: 30000
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: maestro-results-ios
+          path: |
+            maestro-results-ios.xml
+            .maestro/reports/
+
+      - name: Publish test results
+        uses: EnricoMi/publish-unit-test-result-action@v2
+        if: always()
+        with:
+          files: maestro-results-ios.xml 
